@@ -2,6 +2,46 @@
 
 All notable changes to the **PSX SoundScope Player** project will be documented in this file.
 
+## [v2] - 2026-09-13
+
+### Added
+What's New & Key Features
+
+Auto SoundScope Automation Mode:
+
+- Added background automation that dynamically cycles through visualizer presets, shifts colors (Q), toggles motion blur (W), and adjusts playback speeds.
+- Smart navigation that jumps randomly across all 26 visualizer presets for continuous visual variety.
+
+
+Fixed Z-Key Toggle & Input Processing:
+
+- Added a 0.3s input debounce to prevent double-triggering when pressing the Z key.
+- Resolved menu pointer drift and emulator input conflicts when toggling automation on/off.
+- Included a initial grace delay upon activation to ensure smooth mode transitions.
+
+
+Dedicated Mode Switchers (Exe Patchers):
+
+- Added Patch Auto SoundScope.exe to instantly switch to automated mode (with pynput dependency auto-installation).
+- Added Patch Manual SoundScope.exe to revert back to original, pure manual control anytime.
+- Embedded explicit exit handling (EXIT /B 0) to prevent Windows Compatibility Assistant warnings.
+
+
+Installation & Upgrade Instructions:
+
+- Extract the release archive to your preferred directory.
+- Ensure you place a valid PlayStation BIOS .bin file inside the config_patch\bios\ folder.
+- Run Setup SoundScope.exe to set up DuckStation and Python dependencies.
+- (Optional) Run Patch Auto SoundScope.exe or Patch Manual SoundScope.exe at any time to switch between automated and manual visualizer behavior.
+- Add your audio files (.mp3, .flac, .wav, .ogg) to the audio_files folder and launch Play SoundScope.exe!
+
+
+How to Control Automation in-game:
+
+- Press Z: Toggle Auto SoundScope ON / OFF in real time during playback.
+
+
+
 ## [v1] - 2026-09-08
 
 ### Added
