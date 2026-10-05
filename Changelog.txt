@@ -1,0 +1,77 @@
+# Changelog
+
+All notable changes to the **PSX SoundScope Player** project will be documented in this file.
+
+## [v3] - 2026-10-05
+
+### Added
+Path Portability:** Resolved relative path resolution in launch and setup scripts. 
+
+- The root folder (`PSX SoundScope Player`) can now be placed and run from any directory or drive without breaking audio file detection or binary copying.
+
+
+
+## [v2] - 2026-09-13
+
+### Added
+What's New & Key Features
+
+Auto SoundScope Automation Mode:
+
+- Added background automation that dynamically cycles through visualizer presets, shifts colors (Q), toggles motion blur (W), and adjusts playback speeds.
+- Smart navigation that jumps randomly across all 26 visualizer presets for continuous visual variety.
+
+
+Fixed Z-Key Toggle & Input Processing:
+
+- Added a 0.3s input debounce to prevent double-triggering when pressing the Z key.
+- Resolved menu pointer drift and emulator input conflicts when toggling automation on/off.
+- Included a initial grace delay upon activation to ensure smooth mode transitions.
+
+
+Dedicated Mode Switchers (Exe Patchers):
+
+- Added Patch Auto SoundScope.exe to instantly switch to automated mode (with pynput dependency auto-installation).
+- Added Patch Manual SoundScope.exe to revert back to original, pure manual control anytime.
+- Embedded explicit exit handling (EXIT /B 0) to prevent Windows Compatibility Assistant warnings.
+
+
+Installation & Upgrade Instructions:
+
+- Extract the release archive to your preferred directory.
+- Ensure you place a valid PlayStation BIOS .bin file inside the config_patch\bios\ folder.
+- Run Setup SoundScope.exe to set up DuckStation and Python dependencies.
+- (Optional) Run Patch Auto SoundScope.exe or Patch Manual SoundScope.exe at any time to switch between automated and manual visualizer behavior.
+- Add your audio files (.mp3, .flac, .wav, .ogg) to the audio_files folder and launch Play SoundScope.exe!
+
+
+How to Control Automation in-game:
+
+- Press Z: Toggle Auto SoundScope ON / OFF in real time during playback.
+
+
+
+## [v1] - 2026-09-08
+
+### Added
+- Automated `Setup SoundScope.exe` installer workflow for Windows environment integration.
+- Automated `audio_files` multi-track `BIN`/`CUE` Audio CD compilation pipeline.
+- Default button layout and controller navigation guide added to `README.md`.
+
+### Installer Features & Automation
+- **BIOS Verification Check:** Automatically verifies that a valid PlayStation BIOS file is present in `config_patch\bios` before starting installation.
+- **DuckStation Setup:** Downloads, extracts, and restructures the latest DuckStation release build automatically if not present.
+- **Preconfigured Patching:** Copies configuration patch settings to the DuckStation environment while preserving launcher binaries.
+- **Python Environment Setup:** Detects local Python installations and silently installs Python 3.14 automatically if missing.
+- **SoundScope Package Installation:** Automatically configures and installs the internal SoundScope Python player package.
+- **Launcher Configuration:** Deploys `Play SoundScope.exe` directly to the root folder for one-click startup.
+- **Automatic Cleanup:** Safely removes temporary download archives, installer artifacts, and automatically deletes `config_patch` and `Setup SoundScope.exe` upon setup completion.
+- **Explorer Refresh:** Triggers a Windows Shell API refresh to update the folder view immediately after installation.
+
+---
+
+### Follow & Support
+- **X (Twitter):** https://x.com/XxZer0ModZxX
+- **YouTube:** https://www.youtube.com/@XxZer0ModZxX
+- **Reddit:** https://www.reddit.com/user/XxZer0ModZxX
+- **Forum:** https://xxzer0modzxx.forumotion.net

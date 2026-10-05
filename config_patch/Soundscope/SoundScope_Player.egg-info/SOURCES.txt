@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+SoundScope_Player.egg-info/PKG-INFO
+SoundScope_Player.egg-info/SOURCES.txt
+SoundScope_Player.egg-info/dependency_links.txt
+SoundScope_Player.egg-info/entry_points.txt
+SoundScope_Player.egg-info/requires.txt
+SoundScope_Player.egg-info/top_level.txt
+data/com.sony.SoundScopePlayer.desktop
+data/icons/hicolor/scalable/apps/com.sony.SoundScopePlayer.svg
+soundscope/__init__.py
+soundscope/settings.ini
