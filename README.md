@@ -54,6 +54,7 @@ When running **SoundScope Player** via DuckStation, use the following controller
 | Action / Player Function | Default Keyboard Mapping
 | :--- | :--- |
 | **Play Track** | `Keyboard (Q)`
+| **Move Pointer** | `Keyboard Arrow (Left, Right, Up, Down)`
 | **Toggle Visualizer Mode** | `Keyboard (Z)`
 
 ## Controls & Navigation in Visualizer Mode
