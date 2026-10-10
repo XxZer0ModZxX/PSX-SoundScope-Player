@@ -56,7 +56,7 @@ Full terms for these components are detailed in the `LICENSE` file.
 
 When running **SoundScope Player** via DuckStation, use the following controller inputs or keyboard mappings to operate the SoundScope audio visualizer:
 
-| Action / Visualizer Function | Default Keyboard Mapping |
+| Action / Visualizer Function | Default Keyboard Mapping | Alternate Keyboard Mapping |
 | :--- | :--- | :--- |
 | **Play/Pause Track** | `Keyboard (X)`
 | **Change Visualizer Colors** | `Keyboard (Q)`
