@@ -49,6 +49,10 @@ Full terms for these components are detailed in the `LICENSE` file.
 
 ## Controls & Navigation in Player Mode
 
+When running **SoundScope Player** via DuckStation, use the following controller inputs or keyboard mappings to operate the SoundScope audio player:
+
+| Action / Player Function | Default Keyboard Mapping
+| :--- | :--- |
 | **Play Track** | `Keyboard (Q)`
 | **Toggle Visualizer Mode** | `Keyboard (Z)`
 
