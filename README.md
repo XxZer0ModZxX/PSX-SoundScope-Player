@@ -47,19 +47,22 @@ Full terms for these components are detailed in the `LICENSE` file.
 4. Place your audio files in the following folder -> PSX SoundScope Player\audio_files
 5. Now run Play SoundScope.exe, once compiled the player will auto startup, able to play music and able to activate the classic PSX SoundScope visualizer.
 
-## Controls & Navigation
+## Controls & Navigation in Player Mode
+
+| **Play Track** | `Keyboard (Q)`
+| **Toggle Visualizer Mode** | `Keyboard (Z)`
+
+## Controls & Navigation in Visualizer Mode
 
 When running **SoundScope Player** via DuckStation, use the following controller inputs or keyboard mappings to operate the SoundScope audio visualizer:
 
 | Action / Visualizer Function | PlayStation Controller | Default Keyboard Mapping |
 | :--- | :--- | :--- |
-| **Play / Pause Track** | `Cross (X)` | `X` |
-| **Stop Track** | `Square` | `Z` |
-| **Next / Previous Track** | `R1` / `L1` | `S` / `A` |
-| **Fast Forward / Rewind** | `R2` / `L2` | `W` / `Q` |
-| **Toggle Visualizer Mode** | `Triangle` | `A` / `S` |
-| **Cycle Visualizer Patterns** | `D-Pad Up` / `Down` | `Up` / `Down` Arrow |
-| **Adjust Visualizer Colors** | `D-Pad Left` / `Right` | `Left` / `Right` Arrow |
-| **Exit / Close Emulator** | `Escape` | `Esc` |
+| **Play/Pause Track** | `Keyboard (X)`
+| **Change Visualizer Colors** | `Keyboard (Q)`
+| **Adjust Visualizer Effect** | `Keyboard (W)`
+| **Adjust Visualizer Speed** | `Keyboard (A)` | `Keyboard Arrow (Up/Down)`
+| **Cycle Visualizer Patterns** | `Keyboard (S)` | `Keyboard Arrow (Left/Right)`
+| **Exit / Close Emulator** | `Keyboard (Esc)`
 
 *Note: Controls can also be customized directly within DuckStation's input settings.*
